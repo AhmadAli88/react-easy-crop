@@ -56,7 +56,7 @@ const ImageCropper = () => {
       {imageSrc && (
         <div style={{ marginTop: '20px' }}>
           <button onClick={showCroppedImage}>Crop Image</button>
-          <button onClick={() => setImageSrc(null)}>Reset</button>
+          <button onClick={() => setImageSrc(null)} style={{background: 'lightblue', borderRadius: '10px', padding: '7px 20px', marginLeft: '20px'}}>Reset</button>
         </div>
       )}
 
