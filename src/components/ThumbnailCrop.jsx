@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Cropper from 'react-easy-crop';
-import getCroppedImg from './utils/cropImage';
+import getCroppedImg from '../utils/cropImage';
 
 const ThumbnailCrop = () => {
   const [image, setImage] = useState(null);
